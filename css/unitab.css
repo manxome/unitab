@@ -1,0 +1,27 @@
+.unitab-link {
+    float:left;
+		cursor: pointer;
+    display:block;
+    padding:10px 20px;
+    width:25%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.unitab-link.active, .unitab-link.active:hover {
+	background: #fff;
+  color: #666;
+}
+.unitab-link:hover {
+	color: #000;
+	background: #eee;
+}
+.unitab-content {
+    display:none;
+    clear:both;
+    background:#FFF;
+    padding:20px 0;
+}
+.unitab-content.active {
+    display:block;
+}
